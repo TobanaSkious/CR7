@@ -1,406 +1,297 @@
-
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
-    <title>CR7</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="images/logo.png" type="image/png">
-</head>
+    <title> Magestic Hotel</title>
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script type="text/javascript" src="dist/slick.js"></script>
+     <script type="text/javascript" src="dist/jquery.scrollUp.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
 
-<body>
+    
+<!--    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">-->
 
-    <!-- header -->
-    <header class="header" id="header">
-        <div class="head-top">
-            <div class="site-name">
-                <span>GEEKPROBIN</span>
+  
+         <script type="text/javascript" src="dist/demo.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    
+
+
+    
+    </head>
+    
+<body >  
+    <header class="tm-header">
+        <img class="tm-logo" src="images/Gold Royal Crown Logo Vector Template.png" alt="Majestic Hotel">
+        <nav class="tm-nav" >
+       <div>
+            <ul>
+                <li class="tm-list"><a href="index.html">Home</a></li>
+                <li class="tm-list"><a href="explorer.html">Explore </a></li>
+                <li class="tm-list"><a href="suites.html">Rooms</a></li>
+                <li class="tm-list"><a href="booking.html">Booking</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>    
             </div>
-            <div class="site-nav">
-                <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
-            </div>
-        </div>
-
-        <div class="head-bottom flex">
-            <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est quos veniam impedit numquam itaque
-                voluptatum, dicta asperiores accusamus, eligendi neque ut incidunt, modi harum molestiae atque natus
-                officia minima.</p>
-            <button type="button" class="head-btn">GET STARTED</button>
-        </div>
+        </nav>
     </header>
-    <!-- end of header -->
+    
+    <section class="tm-imgslider">
+ 
+    
+    <div class="slider single">
+					<div><div class="tm-slider"><img class="tm-sliderimage" src="images/main_slider11.png" alt="Majestic Hotel"> 
+                        <div class="tm-slidertext">
+                        <p class="bold"> Expierence</p>
+                        <p class="simple">The Beauty and ambience </p>
+                            <p class="simple">All in one place </p></div>
+                </div></div>
+					<div><div class="tm-slider"><img class="tm-sliderimage" src="images/main_slider12.png" alt="Majestic Hotel"> 
+                        <div class="tm-slidertext">
+                        <p class="bold"> Expierence</p>
+                        <p class="simple">The tranquility </p>
+                            <p class="simple">in hotel spa and swimming pool </p></div>
+                </div></div>
+					<div><div class="tm-slider"><img class="tm-sliderimage" src="images/main_slider13.png" alt="Majestic Hotel"> 
+                        <div class="tm-slidertext">
+                        <p class="bold"> Expierence</p>
+                        <p class="simple">The luxorious interiors </p>
+                            <p class="simple">in every hotel room </p></div>
+                </div></div>
+					<div><div class="tm-slider"><img class="tm-sliderimage" src="images/main_slider14.png" alt="Majestic Hotel"> 
+                        <div class="tm-slidertext">
+                        <p class="bold"> Expirence</p>
+                        <p class="simple">The mesmerizing beach view </p>
+                            <p class="simple">from your room's balcony</p></div>
+                </div></div>
+				
+				</div>
+        <img src="images/back.png" class="left">
+          <img src="images/next.png" class="right">
+   </section>
+    
 
-    <!-- side navbar -->
-    <div class="sidenav" id="sidenav">
-        <span class="cancel-btn" id="cancel-btn">
-            <i class="fas fa-times"></i>
-        </span>
+    
 
-        <ul class="navbar">
-            <li><a href="#header">home</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#rooms">rooms</a></li>
-            <li><a href="#customers">customers</a></li>
-        </ul>
-        <button class="btn sign-up">sign up</button>
-        <button class="btn log-in">log in</button>
-    </div>
-    <!-- end of side navbar -->
 
-    <!-- fullscreen modal -->
-    <div id="modal"></div>
-    <!-- end of fullscreen modal -->
+    
+     <section class="slider room flex">
+      
+                    <div class="tm-rooms">
+                        <img  src="images/luxury.png">
+                       <a href="rooms.html"> <p class="s">Luxury Suite</p> </a>
 
-    <!-- body content  -->
-    <section class="services sec-width" id="services">
-        <div class="title">
-            <h2>services</h2>
-        </div>
-        <div class="services-container">
-            <!-- single service -->
-            <article class="service">
-                <div class="service-icon">
-                    <span>
-                        <i class="fas fa-utensils"></i>
-                    </span>
-                </div>
-                <div class="service-content">
-                    <h2>Food Service/ Food Runner</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia
-                        accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur
-                        doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis
-                        rem autem ex, reiciendis corporis suscipit!</p>
-                    <button type="button" class="btn">Know More</button>
-                </div>
-            </article>
-            <!-- end of single service -->
-            <!-- single service -->
-            <article class="service">
-                <div class="service-icon">
-                    <span>
-                        <i class="fas fa-swimming-pool"></i>
-                    </span>
-                </div>
-                <div class="service-content">
-                    <h2>Refreshment</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia
-                        accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur
-                        doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis
-                        rem autem ex, reiciendis corporis suscipit!</p>
-                    <button type="button" class="btn">Know More</button>
-                </div>
-            </article>
-            <!-- end of single service -->
-            <!-- single service -->
-            <article class="service">
-                <div class="service-icon">
-                    <span>
-                        <i class="fas fa-broom"></i>
-                    </span>
-                </div>
-                <div class="service-content">
-                    <h2>Housekeeping</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia
-                        accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur
-                        doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis
-                        rem autem ex, reiciendis corporis suscipit!</p>
-                    <button type="button" class="btn">Know More</button>
-                </div>
-            </article>
-            <!-- end of single service -->
-            <!-- single service -->
-            <article class="service">
-                <div class="service-icon">
-                    <span>
-                        <i class="fas fa-door-closed"></i>
-                    </span>
-                </div>
-                <div class="service-content">
-                    <h2>Room Security</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia
-                        accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur
-                        doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis
-                        rem autem ex, reiciendis corporis suscipit!</p>
-                    <button type="button" class="btn">Know More</button>
-                </div>
-            </article>
-            <!-- end of single service -->
-        </div>
+                    </div>
+                        <div class="tm-rooms">
+                        <img  src="images/delux.png">
+                            <a href="rooms.html"> <p class="s">Delux Suite</p></a>
+
+                    </div>
+                        <div class="tm-rooms">
+                        <img  src="images/premier.png">
+                            <a href="rooms.html">  <p>Premier Suite</p></a>
+
+                    </div>
+                    <div class="tm-rooms">
+                        <img  src="images/luxuryroom.png">
+                       <a href="rooms.html"> <p class="s">Luxury Room</p> </a>
+
+                    </div>
+                        <div class="tm-rooms">
+                        <img  src="images/deluxroom.png">
+                            <a href="rooms.html"> <p>Delux Room</p></a>
+
+                    </div>
+                        <div class="tm-rooms">
+                        <img  src="images/premiumroom.png">
+                            <a href="rooms.html">  <p>Premier Room</p></a>
+
+                    </div>
+            
+                  
     </section>
 
-    <div class="book">
-        <form class="book-form">
-            <div class="form-item">
-                <label for="checkin-date">Check In Date: </label>
-                <input type="date" id="chekin-date">
-            </div>
-            <div class="form-item">
-                <label for="checkout-date">Check Out Date: </label>
-                <input type="date" id="chekout-date">
-            </div>
-            <div class="form-item">
-                <label for="adult">Adults: </label>
-                <input type="number" min="1" value="1" id="adult">
-            </div>
-            <div class="form-item">
-                <label for="children">Children: </label>
-                <input type="number" min="1" value="1" id="children">
-            </div>
-            <div class="form-item">
-                <label for="rooms">Rooms: </label>
-                <input type="number" min="1" value="1" id="rooms">
-            </div>
-            <div class="form-item">
-                <input type="submit" class="btn" value="Book Now">
-            </div>
-        </form>
-    </div>
-
-    <section class="rooms sec-width" id="rooms">
-        <div class="title">
-            <h2>rooms</h2>
+    
+    
+    
+    
+    <section class="tm-servicesection">
+         <div class="tm-service">
+              <img class="tm-serimage" src="images/bell.png">
+             <div>
+                        <p class="b">Room Service</p>
+                        <p> Enjoy your stay with excellent and timely room service </p> </div>
         </div>
-        <div class="rooms-container">
-            <!-- single room -->
-            <article class="room">
-                <div class="room-image">
-                    <img src="images/img1.jpg" alt="room image">
-                </div>
-                <div class="room-text">
-                    <h3>Luxury Rooms</h3>
-                    <ul>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus
-                        maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias
-                        sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse
-                        commodi nemo?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque,
-                        fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit
-                        eius labore, atque quo?</p>
-                    <p class="rate">
-                        <span>$99.00 /</span> Per Night
-                    </p>
-                    <button type="button" class="btn">book now</button>
-                </div>
-            </article>
-            <!-- end of single room -->
-            <!-- single room -->
-            <article class="room">
-                <div class="room-image">
-                    <img src="images/img2.jpg" alt="room image">
-                </div>
-                <div class="room-text">
-                    <h3>Luxury Rooms</h3>
-                    <ul>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus
-                        maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias
-                        sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse
-                        commodi nemo?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque,
-                        fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit
-                        eius labore, atque quo?</p>
-                    <p class="rate">
-                        <span>$99.00 /</span> Per Night
-                    </p>
-                    <button type="button" class="btn">book now</button>
-                </div>
-            </article>
-            <!-- end of single room -->
-            <!-- single room -->
-            <article class="room">
-                <div class="room-image">
-                    <img src="images/img3.jpg" alt="room image">
-                </div>
-                <div class="room-text">
-                    <h3>Luxury Rooms</h3>
-                    <ul>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                        <li>
-                            <i class="fas fa-arrow-alt-circle-right"></i>
-                            Lorem ipsum dolor sit amet.
-                        </li>
-                    </ul>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus
-                        maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias
-                        sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse
-                        commodi nemo?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque,
-                        fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit
-                        eius labore, atque quo?</p>
-                    <p class="rate">
-                        <span>$99.00 /</span> Per Night
-                    </p>
-                    <button type="button" class="btn">book now</button>
-                </div>
-            </article>
-            <!-- end of single room -->
+        <div class="tm-service">
+              <img class="tm-serimage" src="images/coffee.png">
+             <div>
+                        <p class="b">Free Breakfast</p>
+                        <p> Enjoy Free breakfast every morning</p> </div>
         </div>
     </section>
+    <section class="tm-servicesection">
 
+        <div class="tm-service">
+              <img class="tm-serimage" src="images/car-front.png">
+             <div>
+                        <p class="b">Free Parking</p>
+                        <p> No need to pay any extra charges to park your vehicle </p> </div>
+        </div>
+        <div class="tm-service">
+              <img class="tm-serimage" src="images/spa.png">
+             <div>
+                        <p class="b">Free Spa</p>
+                        <p> Relax at the inhouse Spa once every day of your stay </p> </div>
+        </div>
 
-    <section class="customers" id="customers">
-        <div class="sec-width">
-            <div class="title">
-                <h2>customers</h2>
+    </section>
+    
+    
+    
+    
+    
+    <section class="tm-reviewsection">
+         
+        <div class="tm-review ">
+            <div class="slider review">
+            <div class="tm-revcon">
+        <p class="b"> Reviews</p>
+            <div class="tm-stars">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
             </div>
-            <div class="customers-container">
-                <!-- single customer -->
-                <div class="customer">
-                    <div class="rating">
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="far fa-star"></i></span>
-                    </div>
-                    <h3>We Loved it</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident
-                        eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
-                    <img src="images/cus1.jpg" alt="customer image">
-                    <span>Customer Name, Country</span>
+                <div class="tm-rev">
+        <p> Great hotel, I am recommending it to everyone. Wished i had stayed few more days there.</p>  <br/>
+        <p> Rachel Green &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tripster</p> </div>
+ 
                 </div>
-                <!-- end of single customer -->
-                <!-- single customer -->
-                <div class="customer">
-                    <div class="rating">
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="far fa-star"></i></span>
-                    </div>
-                    <h3>Comfortable Living</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident
-                        eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
-                    <img src="images/cus2.jpg" alt="customer image">
-                    <span>Customer Name, Country</span>
-                </div>
-                <!-- end of single customer -->
-                <!-- single customer -->
-                <div class="customer">
-                    <div class="rating">
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="far fa-star"></i></span>
-                    </div>
-                    <h3>Nice Place</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident
-                        eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
-                    <img src="images/cus3.jpg" alt="customer image">
-                    <span>Customer Name, Country</span>
-                </div>
-                <!-- end of single customer -->
+            
+            <div class="tm-revcon">
+        <p class="b"> Reviews</p>
+            <div class="tm-stars">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
             </div>
+                <div class="tm-rev">
+        <p> Nice hotel, I had a wonderful expeirence and there are plenty of amenities. </p>  <br/>
+        <p> Ross Geller &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Visitor</p> </div>
+ 
+                </div>
+            
+           
+            <div class="tm-revcon">
+        <p class="b"> Reviews</p>
+            <div class="tm-stars">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+            </div>
+                <div class="tm-rev">
+        <p> Great hotel, Great food enough said. </p>  <br/>
+        <p> Joey Tribiani &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Actor</p> </div>
+ 
+                </div>    
+                
+                
+            <div class="tm-revcon">
+        <p class="b"> Reviews</p>
+            <div class="tm-stars">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+            </div>
+                <div class="tm-rev">
+        <p> Very nice hotel enjoyed the spa and as a masseuse I recommend it. </p>  <br/>
+        <p> Pheobe Buffay &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Traveller</p> </div>
+ 
+                </div>   
+                
+                <div class="tm-revcon">
+        <p class="b"> Reviews</p>
+            <div class="tm-stars">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+            </div>
+                <div class="tm-rev">
+        <p> Nice, calm and clean just the way I like it. </p>  <br/>
+        <p> Monica Geller &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Tripster</p> </div>
+ 
+                </div>    
+                
+                       <div class="tm-revcon">
+        <p class="b"> Reviews</p>
+            <div class="tm-stars">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+                 <img src="images/star.png">
+            </div>
+                <div class="tm-rev">
+        <p> Knock knock whose there ? ... a satisfied customer. </p>  <br/>
+        <p> Chandler Bing &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Visitor</p> </div>
+ 
+                </div>  
+                
+            </div>
+            
+
         </div>
     </section>
-    <!-- end of body content -->
-
-    <!-- footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div>
-                <h2>About Us </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente mollitia doloribus
-                    provident? Eos quisquam aliquid vel dolorum, impedit culpa.</p>
-                <ul class="social-icons">
-                    <li class="flex">
-                        <i class="fa fa-twitter fa-2x"></i>
-                    </li>
-                    <li class="flex">
-                        <i class="fa fa-facebook fa-2x"></i>
-                    </li>
-                    <li class="flex">
-                        <i class="fa fa-instagram fa-2x"></i>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <h2>Useful Links</h2>
-                <a href="#">Blog</a>
-                <a href="#">Rooms</a>
-                <a href="#">Subscription</a>
-                <a href="#">Gift Card</a>
-            </div>
-
-            <div>
-                <h2>Privacy</h2>
-                <a href="#">Career</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Services</a>
-            </div>
-
-            <div>
-                <h2>Have A Question</h2>
-                <div class="contact-item">
-                    <span>
-                        <i class="fas fa-map-marker-alt"></i>
-                    </span>
-                    <span>
-                        203 Fake St.Mountain View, San Francisco, California, USA
-                    </span>
-                </div>
-                <div class="contact-item">
-                    <span>
-                        <i class="fas fa-phone-alt"></i>
-                    </span>
-                    <span>
-                        +84545 37534 48
-                    </span>
-                </div>
-                <div class="contact-item">
-                    <span>
-                        <i class="fas fa-envelope"></i>
-                    </span>
-                    <span>
-                        info@domain.com
-                    </span>
-                </div>
-            </div>
+    
+    
+    <section class="tm-makeres">
+    <div class="tm-res">
+       <div class="tm-resbutton">
+           <a href="booking.html"> <p>Make Reservation</p></a>
         </div>
+        </div>
+    </section>
+    
+    <footer class="tm-footer">
+        <div class="tm-us">
+        <p class="bold">About Us</p>
+        <p>We are a part of chain of luxury hotels 
+            which extends all over the world. We 
+            provide a luxorious stay with various value
+            added and free services which will make
+            you visit us over and over again.</p>    
+        </div>
+       
+        <div class="tm-address">
+        <p class="bold">Address</p>
+        <p>415, Park Avenu, Hawai
+            Phone : (211) 9275693451
+            Email : majestic@info.com</p>    
+        </div>
+        <br/>
+    <div class="tm-media">
+        <a href="#"> <img src="images/fb.png"></a>
+        <a href="#"> <img src="images/G.png"> </a>
+        <a href="#"> <img src="images/twittr.png"> </a>
+        <a href="#">  <img src="images/insta.png"> </a>
+        
+        </div>
+       
+<!--    <a  href="#top">  <img class="tm-up" src="images/up.png"> </a>-->
+        
+      
     </footer>
-    <!-- end of footer -->
-
-    <script src="script.js"></script>
 </body>
-
 </html>
